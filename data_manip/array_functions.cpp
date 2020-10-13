@@ -19,7 +19,7 @@ int getSize(std::vector<constants::entry>  &entries){
 }
 
 int getNumbOccurAt(std::vector<constants::entry>  &entries,int i){
-	if(i > vector){
+	if(i > vector[i]){
 		return vector[-1]
 	}
 	else
